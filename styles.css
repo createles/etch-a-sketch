@@ -1,0 +1,14 @@
+#mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridSquare {
+    border: 2px solid red;
+    padding: 20px;
+    width: 25%;
+    box-sizing: border-box;
+    aspect-ratio: 1/1;
+}
