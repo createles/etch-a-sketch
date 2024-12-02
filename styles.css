@@ -1,14 +1,27 @@
 #mainContainer {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
+    justify-self: center;
+    justify-content: center;
+    width: 550px;
+    height: 550px;
+}
+
+.gridRowContainer {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 .gridSquare {
-    border: 2px solid red;
-    padding: 20px;
-    width: 25%;
+    border: 1px solid rgba(0, 0, 0, 0.322);
+    width: auto;
     box-sizing: border-box;
+    /* Resizes item to have 1:1 width and height */
     aspect-ratio: 1/1;
+}
+
+#gridSize {
+    display: flex;
+    justify-self: center;
 }
